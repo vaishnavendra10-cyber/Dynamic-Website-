@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding:0;
+}
+
+.sidebar{
+    background-color: red; 
+    width: 15vw;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+
+.sidebar nav{
+   padding: 18px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 15px;
+    padding: 34px ;
+}
+
+.main{
+    background-color: yellow;
+    width: 100vw;
+}
+.container{
+     display: flex;
+}
